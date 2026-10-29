@@ -1,0 +1,14 @@
+commencer
+	uv init --bare
+
+ajouter une dépendance
+	uv add numpy
+
+	sans version précise
+		uv add --raw numpy
+
+retirer une dépendance
+	uv remove numpy
+
+	tout supprimer
+		uv remove --all
